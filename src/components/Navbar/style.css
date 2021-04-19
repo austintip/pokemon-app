@@ -1,0 +1,8 @@
+.Navbar {
+    padding: 25px;
+    background: #154c41;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-text-stroke: cadetblue 1px;
+    font-size: xx-large;
+}

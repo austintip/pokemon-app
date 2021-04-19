@@ -1,43 +1,96 @@
-.App {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  /* margin-bottom: 1em; */
-}
-
-html, body {
-  height: 100%;
-}
-
 
 @media only screen and (max-width: 760px) {
   .App {
-    width: auto;
-    background-color: green;
+    /* width: auto; */
+  }
+
+  .card {
+    margin-right: 1.7em;
   }
 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 10vh;
+* {
+  box-sizing: border-box;
+}
+
+.grid-container {
+  width: 70%;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 10px;
+}
+
+.nav-buttons {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 20px 0;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-buttons button {
+  border: 3px solid black;
+  width: 6em;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background: #ed3838;
+  color: #fff;
+  font-size: 1em;
+  box-shadow: 5px 5px 5px black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+p {
+  margin: 0;
+}
+
+.card {
+  background: rgb(249, 236, 191);
+  border-radius: 10px;
+  border: 5px solid black;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.86);
+}
+
+.card__img {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  width: 70%;
+  height: 30%;
+  margin: auto;
+  margin-top: 10%;
+  background-color:rgba(241, 237, 233, 0.908);
+}
+
+.card__types {
+  display: flex;
+  justify-content: center;    
+}
+
+.card__type {
+  padding: 5px 10px;
+  margin: 10px 10px 10px 0;
+  border-radius: 5px;
+  background: rgb(59, 56, 56);
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.card__name {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 800;
+}
+
+.card__info {
+  margin-left: 10px;
+}
+
+.card__data {
+  padding-bottom: 10px;
+}
+
+.card__data .title {
+  font-weight: 700;
 }

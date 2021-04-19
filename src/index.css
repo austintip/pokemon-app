@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #efcece;
+  /* background-image: url('https://s3.favim.com/orig/140427/background-pokeballs-pokemon-Favim.com-1708542.png'); */
+  /* background-size: contain; */
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9f43c073-7631-4f98-8b19-ff63a50e1660/d7rw72u-ed83b96f-940c-4c58-814f-fb524d565c07.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvOWY0M2MwNzMtNzYzMS00Zjk4LThiMTktZmY2M2E1MGUxNjYwXC9kN3J3NzJ1LWVkODNiOTZmLTk0MGMtNGM1OC04MTRmLWZiNTI0ZDU2NWMwNy5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.eumWOhhKh8NU5EdHbvDZeCxyFPKDb0RnXnWLiO5ARh0');
 }
 
 code {
